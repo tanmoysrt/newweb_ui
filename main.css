@@ -103,10 +103,12 @@ textarea:focus, input:focus{
 
 .product-card{
     min-width: 160px;
+    width: min-content;
     border-radius: 16px;
     border: none;
     box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -198,3 +200,7 @@ textarea:focus, input:focus{
 }
 
 
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+}
