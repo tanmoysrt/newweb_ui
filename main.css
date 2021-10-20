@@ -24,6 +24,7 @@ textarea:focus, input:focus{
 
 .navbar{
     background-color: #F6F6F6;
+    height: fit-content;
 }
 
 
@@ -48,7 +49,10 @@ textarea:focus, input:focus{
     position: relative;
     width: 75vw;
     display: block;
-    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
     z-index: 2;
 }
@@ -161,6 +165,14 @@ textarea:focus, input:focus{
     font-size: large;
 }
 
+/* PRoducts row */
+
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /* CAtegory button */
 .category-btn{
     align-self: center;
@@ -200,7 +212,3 @@ textarea:focus, input:focus{
 }
 
 
-.product-row{
-    display: flex;
-    flex-wrap: wrap;
-}
