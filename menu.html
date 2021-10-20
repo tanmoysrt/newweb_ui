@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/8c64aea397.js" crossorigin="anonymous"></script>
+    <title>New web </title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-light p-0 mb-0 fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-brand"><a class="navbar-brand-logo brand-color">Food Store</a></div>
+            <div class="d-flex">
+                <i class="fas fa-phone-alt fa-lg mx-3 brand-color"></i>
+                <i class="fas fa-shopping-cart fa-lg mx-3 brand-color"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- bottom navbar -->
+    <nav class="navbar navbar-light bg-transparent p-0 mb-0 fixed-bottom">
+        <div class="d-flex p-4 w-100 justify-content-end">
+            <a class="menu-btn" data-bs-toggle="modal" data-bs-target="#productCategory">🔥 Menu</a>
+        </div>
+    </nav>
+
+    <!-- Menu modal -->
+    <div class="modal fade" id="productCategory" tabindex="-1" aria-labelledby="productCategoryLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="productCategoryLabel">Choose one</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Rice
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Noodles
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soup
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Vegetable
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid p-0" style="margin-top: 90px;margin-bottom: 90px;">
+
+        <!-- Top Products Scroll -->
+        <div class="w-100 d-flex flex-column px-0 pt-0 pb-2 overflow-hidden text-center">
+
+            <!-- Product list  -->
+            <a class="category-btn">Biriyani</a>
+            <div class="row w-100  justify-content-center mt-3">
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="category-btn mt-3">Biriyani</a>
+            <div class="row w-100  justify-content-center mt-3">
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row w-100  justify-content-center mt-3">
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row w-100  justify-content-center mt-3">
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card product-card col-4">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Chicken Katsu</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="brand-color font-weight-bold m-0">₹ 100</p>
+                            <div class="px-2 m-0 py-0 rounded-pill bg-brand-color">
+                                <i class="fas fa-plus-circle text-white"></i>
+                                <a class="text-white text-decoration-none">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Product list -->
+        </div>
+
+        <div>
+
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

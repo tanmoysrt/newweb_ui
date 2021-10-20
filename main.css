@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap');
+
+
+:root{
+    --brand-color: #32B768;
+}
+
+*{
+    /* padding: 0!important; */
+    /* margin: 0!important; */
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #F6F6F6;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
+
+textarea:focus, input:focus{
+    outline : none;
+}
+
+.navbar{
+    background-color: #F6F6F6;
+}
+
+
+.brand-color{
+    color: var(--brand-color);
+}
+
+.bg-brand-color{
+    background-color: var(--brand-color);
+}
+
+
+/* Navabar */
+.navbar-brand-logo{
+    font-family: 'Italianno', cursive;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+/* Search bar */
+.search-bar{
+    position: relative;
+    width: 75vw;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    z-index: 2;
+}
+
+.search-bar i {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #7b7f88;
+  }
+
+.search-bar input{
+    border: none;
+    line-height: 36px;
+    padding-left: 45px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 11px;
+    background-color: #E6E7E9;
+}
+
+
+/* Carousel indicators custom design */
+.carousel-custom-indicators button{
+    width: 9px;
+    height: 9px;
+    background: #E2E2E2;
+    border: none;
+    border-radius: 50%;
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-custom-indicators .active{
+    background : var(--brand-color);
+}
+
+.carousel-item{
+    height: 150px;
+    border-radius: 15px!important;
+    overflow: hidden;
+}
+
+.carousel-item img{
+    object-fit: fill;
+}
+
+/* Product card */
+
+.product-card{
+    min-width: 160px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+    margin-left: 15px;
+}
+
+
+.product-card img{
+    padding: 8px;
+    border-radius: 16px;
+    object-fit: contain;
+}
+
+.product-card .card-body{
+    padding: 8px!important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Product category card */
+
+.product-category-card{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    border-radius: 9px;
+    padding: 7px 10px 7px 10px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+    margin-bottom: 10px;
+}
+
+.product-category-card img{
+    width: 20%;
+    height: 25%;
+    border-radius: 9px;
+}
+
+.product-category-card p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    margin: 0;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.product-category-card i{
+    margin-left: auto;
+    margin-right: 10px;
+    color: var(--brand-color);
+    font-size: large;
+}
+
+/* CAtegory button */
+.category-btn{
+    align-self: center;
+    width: min-content;
+    max-height: 40px;
+    min-height: 38px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    background-color: var(--brand-color);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+    padding: 7px 15px 7px 15px;
+}
+
+/* Menu button with fire icon */
+.menu-btn{
+    align-self: center;
+    width: fit-content;
+    max-height: 48px;
+    min-height: 42px;
+    color: var(--brand-color);
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    background-color: white;
+    border-radius: 23px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+    padding: 7px 22px 7px 22px;
+    background:  linear-gradient(white, white) padding-box, linear-gradient(to right, darkblue, darkorchid) border-box;
+    border: 2px solid transparent;
+}
+
+
