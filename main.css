@@ -274,6 +274,13 @@ textarea:focus, input:focus{
     font-weight: 500;
 }
 
+.cart-product-card .delete-cart-btn{
+    position: absolute;
+    top: -2px;
+    right: 0;
+    color: red;
+}
+
 /* Cart page checkout button */
 .checkout-btn, .register-btn, .back-btn, .generic-btn{
     width: 75vw;
