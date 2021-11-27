@@ -220,7 +220,11 @@ textarea:focus, input:focus{
     align-items: center;
 }
 
-.cart-product-added i,a{
+.cart-product-added a{
+    color: var(--brand-color)!important;
+}
+
+.cart-product-added i{
     color: var(--brand-color)!important;
 }
 
