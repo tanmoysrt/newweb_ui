@@ -179,7 +179,7 @@ textarea:focus, input:focus{
     width: min-content;
     max-height: 40px;
     min-height: 38px;
-    color: whitesmoke;
+    color: white!important;
     text-decoration: none;
     font-size: large;
     font-family: 'Inter', sans-serif;
@@ -211,6 +211,18 @@ textarea:focus, input:focus{
     border: 2px solid transparent;
 }
 
+/* Product added already in cart */
+.cart-product-added{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-product-added i,a{
+    color: var(--brand-color)!important;
+}
 
 /* Navbar bg green curve border for cart pages */
 
